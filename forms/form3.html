@@ -1,0 +1,267 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color:#78c2e2;
+        /* width:fit-content 50%; */
+        border-width: 3px ;
+        border-style: dotted;
+    }
+   h1{
+    text-align: center;
+   }
+   .container{
+     width: 35%; 
+    margin: auto;
+   }
+   form{
+    width: auto;
+    height: fit-content;
+    padding :4% 6% 4% 6%;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    box-shadow:  9px -10px #e294d9 inset ,
+    -9px 10px #e294d9 inset ;
+
+   }
+   button{
+    display: block;
+    background-color: rgb(51, 216, 51);
+    /* float: right; */
+    /* position: relative; */
+    /* top:-1rem; */
+    /* left: 2rem; */
+    /* outline: none; */
+    cursor: pointer;
+    /* transition:.5s ease all; */
+    /* background-image: linear-gradient(#f2a2ff,#f2a2ff 
+    ),linear-gradient(-45deg,#f2a2ff,#f2a2ff
+    ); */
+    color: white;
+   }
+</style>
+<body>
+    <form>
+        <h1 class="gotocenter">Student Registeration Form</h1>
+        <hr style="width: 500px;">
+        <br><br>
+        <div class="container">
+        <div class="fname"><label for="fname">Firstname</label>
+        <br><br>
+        <input  type="text" id="fname" name="fname" placeholder="Firstname" style="width: 500px; height: 30px;"></div>
+        <br>
+        <label for="mname">Middlename</label>
+        <br><br>
+        <input type="text" id="mname" name="mname" placeholder="Middlename" style="width: 500px; height: 30px;">
+        <br><br>
+        <label for="lname">Lastname</label>
+        <br><br>
+        <input class="gotocenter" type="text" id="lname" name="lname" placeholder="Lastname" style="width: 500px; height: 30px;">
+        <br><br>
+        <label for="course">Course:</label>
+        <select>
+            <option value="">Btech</option>
+            <option value="">Mtech</option>
+            <option value="">B.A</option>
+            <option value="">MCA</option>
+        </select>
+        <br><br>
+        <label for="gender">Gender:</label>
+        <br>
+        <input type="radio" id="Male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="Female" name="gender">
+        <label for="male">Female</label>
+        <input type="radio" id="Others" name="gender">
+        <label for="male">Others</label>
+        <br><br>
+        <label for="phno">Phone:</label>
+        <br><br>
+        <input type="digits" id="Phone" name="phno" placeholder="+91" style="width: 500px; height: 30px;">
+        <br><br>
+        <input type="digits" id="Phone" name="phno" placeholder="Phone no" style="width: 500px; height: 30px;">
+        <br><br>
+        <label for="address">Current Address:</label>
+        <br><br>
+        <textarea cols="66" rows="5" value="address">Current Address</textarea>
+        <br><br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" id="Email" name="email" placeholder="Enter Email" style="width: 500px; height: 30px;">
+        <br><br>
+        <label for="password">Password</label>
+        <br>
+        <input type="text" id="Password" name="password" placeholder="Enter Password" style="width: 500px; height: 30px;">
+        <br><br>
+        <label for="repassword">Re-type Password</label>
+        <br>
+        <input type="text" id="Re-type Password" name="repassword" placeholder="Re-type Password" style="width: 500px; height: 30px;">
+        <br><br>
+        <button for="register" style="width: 508px; height: 30px;">Register</button>
+        <br><br>
+    </div>
+    
+       
+
+    </form>
+    
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+    
+</head>
+<body>
+    <style>
+        body{
+    background-color: aqua;
+    
+}
+h3{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+hr{
+    width: 400px;
+}
+form{
+    text-align: center;
+    
+    border: 3px solid #fff;
+    border-radius: 0px 0 0px 0;
+    width: 500px;
+    height: 585px;
+    margin: 30px auto 0;
+    
+}
+.firstName{
+    padding-right: 60%;
+    padding-top: 6px;
+}
+.middleName{
+    padding-right: 56%;
+}
+.lastName{
+    padding-right: 60%;
+}
+.course{
+    padding-right: 51%;
+}
+.gender{
+    padding-right: 22%;
+}
+.phNO{
+    padding-right:0%;
+}
+.address{
+    padding-right: 60%;   
+}
+.email{
+    padding-right: 62%;
+}
+.password{
+    padding-right: 58%;
+}
+.confirmpassword{
+    padding-right: 48%;
+}
+.button{
+    padding-left: 0%;
+    
+}
+    </style>
+    
+    
+
+        <h3>Student Registration Form</h3><hr>
+        <div class="box">
+        <!-- form starts here -->
+        <form action="#">
+            <div class="firstName">
+                <label for="FirstName">firstName</label> </div>
+                <input type="text" id="FirstName" placeholder="Enter your FirstName" size="50px" required><br><br>
+            
+             <div class="middleName">
+                <label for="middleName">middleName</label></div>
+                <input type="text" id="middleName" placeholder="Enter your middleName" size="50px" required><br><br>
+            
+            <div class="lastName">
+                <label for="lastName">lastName</label></div>
+                <input type="text" id="lastName" placeholder="Enter your lastName" size="50px" required><br><br>
+
+            
+
+            <div class="gender">
+                <label for="gender"> gender : </label>
+                <input type="radio" name="gender" id="Male" value="Male" required>
+                <label for="Male">Male</label>
+                <input type="radio" name="gender" id="FeMale" value="Female" required>
+                <label for="Female">Female</label>
+                <input type="radio" name="gender" id="Other" value="Other" required>
+                <label for="Other">Other</label>
+            </div><br>
+
+            <div class="course">
+                <label for="course">course : </label>
+                <select name="course" id="course" required>
+                <option value="..">..</option>
+                <option value="Btech">Btech</option>
+                <option value="BA">BA</option>
+                <option value="BSC">BSC</option>
+                <option value="BE">BE</option>
+                <option value="Bcom">Bcom</option></select>
+                
+            </div><br>
+
+            <div class="phNO">
+                <label for="ph.NO">ph.NO : </label>
+                <input type="tel" id="ph.NO" placeholder="Enter your number" size="40px" required>
+            </div><br>
+
+            <div class="address">
+                <label for="address">address : </label></div>
+                <input type="textarea" id="address" placeholder="Current address" size="50px" style="height: 40px;" required>
+            <br><br>
+
+            <div class="email">
+                <label for="email">email : </label></div>
+                <input type="email" id="email" placeholder="Enter your Email id" size="50px" required>
+            <br><br>
+
+            <div class="password">
+                <label for="password">password : </label></div>
+                <input type="password" id="password" placeholder="Enter password" size="50px" required>
+
+            <br><br>
+            <div class="confirmpassword">
+                <label for="confirmpassword">confirmpassword : </label> </div>
+                <input type="confirmpassword" id="confirmpassword" placeholder="Enter password" size="50px" required><br><br>
+
+           
+            
+            <button>Register</button>
+           
+           
+            <button>Reset</button>
+           
+
+
+        </form>
+        
+
+        
+    
+</body>
+</html>

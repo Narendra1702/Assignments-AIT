@@ -1,0 +1,210 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+    <style>
+        div.formborder{
+          
+            width: 750px;
+            height: auto;
+            border: 1px solid black;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        label{
+            width: 100px;
+            display: inline-block;
+            margin: 0px 0px 0px 0px;
+            clear:both;
+            
+            }
+            form .input {
+             margin-left: 150px;
+            }
+        input{
+            font-size: large;
+            color :black;
+            outline:none;
+            box-shadow: inset 2px 2px #888888;
+            border:solid thin gray;
+            width: 300px;
+            display: inline-block;
+            
+        }        
+       
+    </style>
+</head>
+<body>
+    <div class="formborder">
+        <p style="background-color: lightblue; padding-top: 0% ; margin-top: 0%; ">Self Registration  - Enter User Details</p>
+        <hr style="height: 1px; margin-top: 10px; background: black;  border: none;">
+        <p style="color:darkblue;"><b>Note:</b> Enter user details and click register to access the workshop. UserID, Password, Last Name, and Email are required fields.</p>
+     <div class="forminfo" style="color: darkblue; ">
+        <label for="UId">User ID</label>  
+        <input type="text" id="UId" name="UId" > <br> <br>
+        <label for="pword">Password</label>  
+        <input type="password" id="pword" name="pword" > <br> <br>
+        <label for="cpword"> Confirm Password</label>  
+        <input type="password" id="cpword" name="cpword" > <br> <br>
+        <label for="lname">Last Name</label>  
+        <input type="text" id="lname" name="lname" minlength="30" size="40" > <br> <br>
+        <label for="fname">First Name</label>  
+        <input type="text" id="fname" name="fname" minlength="30" size="40" > <br> <br>
+        <label for="mail">Email</label>  
+        <input type="email" id="mail" name="mail" minlength="30" size="40" > <br> <br>
+        <label for="com">Company</label>  
+        <input type="text" id="com" name="com" minlength="30" size="40" > <br> <br>
+        <label for="phone">Phone :</label>
+        <input type="tel" id="phone" name="phone" minlength="25" size="35"> <br> <br>
+        <label for="fax">Fax</label>
+        <input type="tel" id="fax" name="fax" minlength="25" size="35"> <br> <br>
+        <label for="add1">Address 1</label>  
+        <input type="text" id="add1" name="add1" minlength="30" size="40" > <br> <br>
+        <label for="add2">Address 2</label>  
+        <input type="text" id="add2" name="add2" minlength="30" size="40" > <br> <br>
+        <label for="city">City </label>
+        <input type="text" id="city" name="city" minlength="25" size="35"> <br> <br>
+        <label for="sp"> State/Province</label>
+        <input type="text" id="sp" name="sp" minlength="25" size="35"> <br> <br>
+        <label for="pin">Zip/Pincode</label>  
+        <input type="number" id="pin" name="pin" > <br> <br>
+        <label for="country">Country</label>
+        <input type="text" id="country" name="country" minlength="25" size="35"> <br> <br>
+        <label for="comment">Comment</label>  
+        <input type="text" id="comment" name="comment" minlength="30" size="40" > <br> <br>
+       <div class="buttons" >
+        <button style="background-color: rgb(74, 74, 200);">Register</button>
+        <button style="background-color: rgb(74, 74, 199);">Submit</button>
+       </div>
+
+    </div>
+    </div>
+    
+     
+   
+</body>
+</html>-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Self Registration - Enter User Details</title>
+<style>
+div.border{
+width: 660px;
+height: auto;
+border: 1px solid black;
+position:absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+label{
+display: inline-block;
+width: 120px;
+text-align: right;
+}
+input{
+box-sizing: content-box;
+border-color: whitesmoke;
+border-bottom: 2px, 1px;
+border-right: 2px, 1px;
+background-color:white;
+padding:5px 20px;
+}
+button{
+background-image:linear-gradient( white , rgb(124, 150, 244) );
+}
+</style>
+</head>
+<body style="color: rgb(73, 98, 188); font-family:Bahnschrift Light;">
+<div class="border">
+<h4 align="center" style="background-image:linear-gradient( white ,
+rgb(124, 150, 244));border-bottom: 1px solid;padding-top: 10px;
+margin-top: 0px; height: 30px;color: black;">Self Registration - Enter
+User Details</h4>
+<p align="center" style="padding:5px 5px;"><strong>Note:
+</strong>Enter user details and click Register to access the workgroup.
+User ID, Password, Last Name or First Name, and Email are required
+fields.</p>
+<!----------------------------- User ID
+------------------------------------------>
+<label for="id">User ID</label>
+<input type="text" id="id"><br><br>
+<!----------------------------- Password
+------------------------------------------>
+<label for="pwd">Password</label>
+<input type="text" id="pwd"><br><br>
+<!----------------------------- Confirm Password
+------------------------------------------>
+<label for="confirm">Confirm Password</label>
+<input type="text" id="confirm"><br><br>
+<!----------------------------- Last Name
+------------------------------------------>
+<label for="lname">Last Name</label>
+<input type="text" id="lname" style="width: 400px;"><br><br>
+<!----------------------------- First Name
+------------------------------------------>
+<label for="fname">First Name</label>
+<input type="text" id="fname" style="width: 400px;"><br><br>
+<!----------------------------- Email
+------------------------------------------>
+<label for="email">Email</label>
+<input type="email" id="email" style="width: 400px;"><br><br>
+<!----------------------------- Company
+------------------------------------------>
+<label for="company">Company</label>
+<input type="text" id="company" style="width: 400px;"><br><br>
+<!----------------------------- Phone
+------------------------------------------>
+<label for="phone">Phone</label>
+<input type="text" id="phone" style="width: 300px;"><br><br>
+<!----------------------------- Fax
+------------------------------------------>
+<label for="fax">Fax</label>
+<input type="text" id="fax" style="width: 300px;"><br><br>
+<!----------------------------- Address 1
+------------------------------------------>
+<label for="address1">Address 1</label>
+<input type="text" id="address1" style="width: 400px;"><br><br>
+<!----------------------------- Address 2
+------------------------------------------>
+<label for="address2">Address 2</label>
+<input type="text" id="address2" style="width: 400px;"><br><br>
+<!----------------------------- City
+------------------------------------------>
+<label for="city">City</label>
+<input type="text" id="city" style="width: 300px;"><br><br>
+<!----------------------------- State/ Province
+------------------------------------------>
+<label for="state">State/ Province</label>
+<input type="text" id="state" style="width: 300px;"><br><br>
+<!----------------------------- Zip/ Pincode
+------------------------------------------>
+<label for="zip">Zip/Pincode</label>
+<input type="text" id="zip"><br><br>
+<!----------------------------- Country
+------------------------------------------>
+<label for="country">Country</label>
+<input type="text" id="country" style="width: 300px;"><br><br>
+<!----------------------------- Comment
+------------------------------------------>
+<label for="comment">Comment</label>
+<input type="text" id="comment" style="width: 480px;"><br><br>
+<!----------------------------- Register and Cancel buttons
+------------------------------------>
+<div id="button" align="center" style="padding-bottom: 20px;">
+<button style="font-size: large;">Register</button>
+<button style="border-color: rgb(106, 106, 251);font-size:
+large;">Cancel</button></div>
+</div>
+</body>
+</html>

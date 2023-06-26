@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            width: 25%;
+            height:2em;
+            /* border: none; */
+            background-color: powderblue;
+            /* padding:.4rem ; */
+            /* margin: auto; */
+            /* position: absolute; */
+            /* top :7px; */
+            /* left: 70px; ; */
+            font-size: large;
+            color: #080000;
+        }
+       /* .personalinfo{
+        border: 2px;
+        margin: 50px;
+        border-color: #080000;
+       } */
+       
+        label{
+            width: 200px;
+            display: inline-block;
+        }
+        legend{
+           font: bold 0.8em Arial, Helvetica, sans-serif;
+           color: #00008B;
+           background-color: #FFFFFF;            
+        }
+        fieldset{
+            border: 1px dotted #61b5cf;
+            margin-top: 1.4em;
+            padding: 0.6em;
+        }
+        button{
+            background-color: powderblue;
+        color: #00008B;}
+    </style>
+</head>
+
+<body>
+    <form>
+        <h1>User Registration Form</h1>
+        <fieldset>
+            <legend>Personal information</legend>
+                
+            <br>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="Name" name="name" style="position: relative;">
+                <br><br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="Email Address">
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="text" id="password" name="Password">
+                <br><br>
+                <label for="confirmpassword">Confirm Password:</label>
+                <input type="text" id="confirmpassword" name="Confirm Password">
+            </div></fieldset>            
+                <br><br>
+                <fieldset>
+                <legend>Address Details</legend>
+            
+            <div>
+                <label for="addressone">Address line one:</label>
+                <input type="text" id="Address line one" name="addressone" style="position: relative;">
+                <br><br>
+                <label for="addresstwo">Address Line Two:</label>
+                <input type="text" id="Address line Two" name="addresstwo">
+                <br><br>
+                <label for="town">Town / City:</label>
+                <input type="text" id="town" name="Town / City">
+                <br><br>
+                <label for="zip">Zip / Post <Code></Code>:</label>
+                <input type="text" id="zip" name="Zip / Post">
+            </div>
+        </fieldset>
+        <br>
+        <button>Sign Up!</button>
+            
+
+    </form>
+    
+</body>
+</html>

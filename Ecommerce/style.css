@@ -1,0 +1,693 @@
+body{
+    /* background-color: rgb(223, 223, 234) ; */
+    border: none;
+    height: auto;
+    /* width: 100%; */
+}
+/* header starts here */
+header{
+    display: flex;
+    background-color: lavender;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      color: #fff;
+      z-index: 100;
+    box-shadow: #777;
+    
+}
+header div{
+    flex: 11;
+}
+header div img{
+    padding-left: 150px;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+header nav{
+    flex: 1;
+    
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    flex: 1;
+    list-style: none;
+    padding-left: 70px;
+    padding-top: 15px;
+    font-size: large;
+    
+}
+header ul li a{
+  position: relative;
+  text-decoration: none;
+  font-family: 'poppins', sans-serif;
+  color: rgb(5, 0, 0);
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  padding: 0px 10px;
+}
+header ul li a:after{
+  content: "";
+  position: absolute;
+  background-color: #14b76e;
+  height: 3px;
+  width: 0px;
+  left: 0px;
+  bottom: -10px;
+  transition: 0.3s;
+  color: #14b76e;
+}
+header ul li a:hover{
+  color: black;
+  width: 100%;
+}
+header ul li a:hover:after{
+  width: 100%;
+}
+    /* text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1000; */
+
+/* header ends here */
+/* banner starts here */
+div .bannerImage{
+     position: relative;
+     width: 200px;
+     height: 300px;
+     object-fit: scale-down;
+     padding-top: 10px;
+     
+
+}
+.bannerImage{
+padding-top: 0px;
+padding-bottom: 500px;
+width: 100%;
+}
+.bannertext{
+    position: absolute;
+    top: 10%;
+    padding-left: 100px;
+    font-size: large;
+    width: auto;
+}
+.bannertext img{
+    
+    height: 50px;
+    width: 300px;
+    position: relative;
+}
+ .bannerImage .shopbutton-bg{
+  position: relative;
+}
+ .imgtxt .shopButton{
+text-decoration: none;
+color: #02B290;
+position: absolute;
+right: 620px;
+top: 320px;
+}
+
+.textonimg{
+    width: 800px;
+
+}
+ .bannerPara1{
+    font-size: 50px;
+    color: white;
+    line-height:0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+.bannerPara2{
+    font-size: 80px;
+    max-width: 100%;
+    line-height:0px;
+}
+.bannerPara3{
+    font-size: 80px;
+    color: #2079a2;
+    line-height:0px;
+}
+.bannerPara4{
+    color: black;
+    line-height:0px;
+}
+
+/* banner ends here */
+/* cards starts here */
+.cardsContainer{
+    display: flex;
+    background-color: white;
+    padding-top: 40px;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 2px #eae7e7;
+    border: none;
+  }
+  
+  /* div.gallery:hover {
+    border: 1px solid #777;
+  } */
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: inline-block;
+    
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    height: 50px;
+    
+  }
+   .cardsContainer{
+    justify-content: space-around;
+  }
+  .b1{
+    background-color:pink ;
+    color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    text-decoration: none;
+  }
+  .b2{
+    background-color:rgb(143, 255, 143) ;
+    color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    text-decoration: none;
+  }
+  .b3{
+    background-color:skyblue ;
+    color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    text-decoration: none;
+  }
+  .b4{
+    background-color:rgb(193, 128, 255) ;
+    color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    text-decoration: none;
+  }
+  .b5{
+    background-color:pink ;
+    color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    text-decoration: none;
+  }
+  .b6 {
+    background-color:#E5D68A;
+    color: #02B290;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    
+  }
+  .b1 a{
+    text-decoration: none;
+  }
+  .b2 a{
+    text-decoration: none;
+  }
+  .b3 a{
+    text-decoration: none;
+  }
+  .b4 a{
+    text-decoration: none;
+  }
+  .b5 a{
+    text-decoration: none;
+  }
+  .b6 a{
+    text-decoration: none;
+  }
+  /* cards ends here */
+  .featuredproducts{
+    text-align: center;
+    background-color: white;
+  }
+  .featuredproducts h1{
+    font-size: 50px;
+    
+  }
+  .featuredproducts h5{
+    font-size: 15px;
+   
+  }
+  .featuredproducts11{
+    text-align: center;
+    background-color: white;
+  }
+  .featuredproducts11 h1{
+    font-size: 50px;
+    position: relative;
+    top: -150px;
+  }
+  .featuredproducts11 h5{
+    font-size: 15px;
+    position: relative;
+    top: -170px;
+  }
+  /* product images starts here */
+  .productimage1{
+    justify-content: space-around;
+    background-color: white;
+    display: flex;
+  }
+  .productimage1 img{
+    height: 350px;
+    width: 350px;
+    padding-top: 10px;
+    border-radius: 20px;
+    justify-content: space-around;
+    
+    padding-left: 10px;
+  }
+  .img1{
+    height: 525px;
+    width: 380px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px 2px #eae7e7;
+    justify-content: center;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .img1 p{
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+   .img1 p{
+    padding-top: 0px;
+    padding-left: 5px;
+  }
+ .star{
+  padding-left: 5px;
+ } 
+.pricecart{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .pricecart h5{
+    color: #196061;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  button{
+    height: 50px;
+    padding: 2px;
+    
+  }
+  .cartbutton{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #a8cccd;
+    padding: 1px;
+    
+    
+    /* padding-right: 10px; */
+  }
+
+  .productimage2{
+    justify-content: space-around;
+    background-color: white;
+    display: flex;
+    padding-top: 50px;
+  }
+  .productimage2 img{
+    height: 350px;
+    width: 350px;
+    padding-top: 10px;
+    border-radius: 20px;
+    justify-content: space-around;
+    
+    padding-left: 10px;
+  }
+  .img1{
+    height: 525px;
+    width: 380px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px 2px #eae7e7;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+  .img1 p{
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+   .img1 p{
+    padding-top: 0px;
+    padding-left: 5px;
+  }
+ .star{
+  padding-left: 5px;
+ } 
+.pricecart{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .pricecart h5{
+    color: #196061;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  button{
+    height: 50px;
+    padding: 2px;
+    
+  }
+  .cartbutton{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #a8cccd;
+    padding: 1px;
+  }
+  /* product images starts here */
+  /* ad banner starts here */
+  .adbanner img{
+    width: 100%;
+    height: 300px;
+    padding-top: 150px;
+    padding-bottom: 0px;
+
+  }
+  .bannertext1{
+    text-align: center;
+    position: relative;
+    top: -320px;
+    left: 0px;
+    color: white;
+  }
+  .bannertext1 .bannerPara1{
+    padding-top: 50px;
+    font-size: 20px;
+  }
+  .imgtextonimg1.imgbannerPara2{
+    padding-top: 50px;
+    font-size: 20px;
+    position: relative;
+    top: -200px;   
+  }
+  .explore a{
+    text-decoration: none;
+    color: black;
+  }
+  .explore{
+    width: 150px;
+    border-radius: 5px;
+    
+  }
+  
+   /* ad banner ends here */
+   /* images starts here */
+  .imgsec{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .img_1{
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-inline-start: 0px;
+    width: 100%;
+    /* height: 100px; */
+  }
+  .imgtextonimg1{
+    position: absolute;
+    top: 460%;
+    left: 6%;
+  }
+  .imgbannerPara1{
+    color: white;
+    position: relative;
+    left: -30px;
+    top: 250px;
+  }
+  .imgbannerPara2{
+    position: relative;
+    top: 200px;
+    left: -30px;
+    color: white;
+    font-size: 50px;
+  }
+  .imgbannerPara3{
+    position: relative;
+    top: 150px;
+    left: -30px;
+    color: white;
+    /* font-size: 20px; */
+  }
+  .explore1{
+    position: relative;
+    width: 150px;
+    top: -230px;
+    left: 50px;
+    background-color: rgb(250, 190, 80);
+    border-color: transparent;
+    border: 1px solid white;
+    /* border-color: rgb(255, 255, 255); */
+    box-shadow: none;
+  }
+  .imgtext1 a{
+     text-decoration: none;
+     color: white;
+  }
+  /* img sec_2 starts here */
+.imgbannerPara11{
+  color: white;
+  position: relative;
+  top: -370px;
+  left: 50px;
+}
+.imgbannerPara12{
+  color: white;
+  position: relative;
+  top: -430px;
+  left: 50px;
+  font-size: 50px;
+}
+.imgbannerPara13{
+  color: white;
+  position: relative;
+  top: -475px;
+  left: 50px;
+}
+.explore2{
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  width: 150px;
+  position: relative;
+  top: -455px;
+  left: 50px;
+  box-shadow: none;
+}
+  /* img sec_2 endss here */
+.part_2{
+  display: flex;
+  width: 100%;
+  position: relative;
+  top: -230px;
+  padding-left: 30px;
+}
+.part_2img1{
+  flex: 1;
+  /* width: 100px; */
+}
+.part_2img2{
+  flex: 1;
+  /* width: 100px; */
+}
+.part_2img3{
+  flex: 1;
+}
+  /* images part2 starts here */
+  .part_2para{
+    color: white;
+    position: relative;
+    top: -235px;
+    left: 40px;
+    font-size: 35px;
+  }
+  .part_2para11{
+    color: white;
+    position: relative;
+    top: -250px;
+    left: 40px;
+    font-size: 40px;  
+  }
+  .part_2para21{
+    color: red;
+    position: relative;
+    top: -290px;
+    left: 45px;
+    font-size: 18px;  
+  }
+  .part_2para2{
+    color: red;
+    position: relative;
+    top: -260px;
+    left: 40px;
+    font-size: 18px; 
+  }
+
+  /* images part2 ends here */
+   /* images ends here */
+/* body section starts here for removing x index */
+   html,body{
+    overflow-x: hidden;
+   }
+   /* body section ends here for removing x index */
+   /* signup banner starts here */
+   .signupbar{
+    display: flex;
+    position: relative;
+    top: -400px;
+    background-color: rgb(23, 23, 72);
+    height: 200px;
+    width: 100%;
+    /* background-image: url(/assets/images/banner/b14.png); */
+    /* background-image: url(/assets/images/banner/b10\ big\ -\ Copy.jpg); */
+   }
+   .signupbar img{
+    position: relative;
+    left: -800px;
+    top: -100px;
+    height: 500px;
+   }
+   .label{
+    /* padding-left: 500px; */
+    position: relative;
+    left: -350px;
+    top: 40px;
+   }
+   input{
+    height: 50px;
+    width: 500px;
+    padding-left: 50px;
+    position: relative;
+    top: 30px;
+    left:800px;
+    background-color: #ccc;
+    border: none;
+    padding-left: 50px;
+
+   }
+   .signupbutton{
+    height: 52px;
+   position: relative;
+   left: 790px;
+   width: 110px;
+   top: 30px;
+   background-color: #196061;
+   border: none;
+   color: white;
+
+   }
+   span{
+    color: #E8BD0D;
+    font-size: 15px;
+   }
+   .pre1{
+    font-size: 25px;
+    position: relative;
+    top: 40px;
+    color: white;
+
+   }
+   .pre2{
+    font-size: 15px;
+    position: relative;
+    top: 15px;
+    left: 45px;
+    color: white;
+   }
+    /* signup banner ends here */
+
+    /* footer starts here */
+    .footer{
+      display: flex;
+      justify-content: space-around;
+      background-color: rgb(223, 223, 234);
+      position: relative;
+      top: -300px;
+      padding-top: 50px;
+      padding-bottom: 0px;
+    }
+    .footerlist1{
+      flex: 1;
+      font-size: large;
+      position: relative;
+      left: 50px;
+    }
+    .footerlist2{
+      flex: 1;
+      font-size: large;
+      position: relative;
+      left: 150px;
+    }
+    .footerlist3{
+      flex: 1;
+      font-size: large;
+      position: relative;
+      left: 70px;
+    }
+    .footerlist4{
+      flex: 1;
+      font-size: large;
+    }
+    .bgcolor{
+      background-color:  rgb(223, 223, 234);
+    }
+    /* footer ends here */

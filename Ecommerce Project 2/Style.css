@@ -1,0 +1,445 @@
+body{
+    border: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+/* header part1 starts here */
+.info{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(251, 224, 228);
+}
+.info div{
+    display: flex;
+    gap: 30px;
+}
+.info1>p>a{
+    text-decoration: none;
+    color: black;
+}
+/* header part1 ends here */
+/* header main starts here */
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.logoimg img{
+ height: 60px;
+ position: relative;
+ left: 50px;
+
+}
+.nav{
+    display: flex;
+    gap: 40px;
+    position: relative;
+    right: 70px;
+}
+.nav>p>a{
+    text-decoration: none;
+    color: black;
+    
+}
+.navicons{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: -0px;
+    padding: 20px;
+
+}
+/* header main starts here */
+/* banner images starts here */
+.banner {
+    width: 100%;
+    height: 500px;
+    /* display: flex; */
+}
+.bannerbg{
+    position: relative;
+    width: 100% ;
+    height: 400px;
+
+}
+.banner .bannerimage img{
+    height: 400px;
+    position: absolute;
+    top: 134px;
+    left: 900px;
+}
+.data{
+    position: relative;
+    top: -900px;
+    left: 300px;
+    font-family: sans-serif;
+}
+.data .data1{
+    font-size: 15px;
+    position: relative;
+    left: 155px;
+    top: 580px;
+}
+.data .data2{
+    font-size: 50px;
+    position: relative;
+    top: 550px;
+}
+.data .data3{
+    font-size: 50px;
+    position: relative;
+    top: 500px;
+    left: 60px;
+}
+button{
+    background-color: rgb(255, 37, 74);
+    padding: 10px;
+    border: 0px;
+    color: white;
+    position: relative;
+    top: 480px;
+    left: 180px;
+    border-radius: 3px;
+}
+/* banner images ends here */
+
+/* product images starts here */
+.products h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 0px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+section h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding-bottom: 30px;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+.img p{
+    text-align: center;
+    padding-top: 20px;
+}
+.img .featuredpara{
+position: relative;
+top: -20px;
+}
+.star{
+    position: relative;
+    left: 125px;
+}
+.producticons1{
+    position: relative;
+    top: -145px;
+    left: 270px;
+}
+.producticons2{
+    position: relative;
+    top: -165px;
+    left: 570px;
+}
+.producticons3{
+    position: relative;
+    top: -185px;
+    left: 870px;
+}
+.producticons4{
+    position: relative;
+    top: -205px;
+    left: 1170px;
+}
+/* product images ends here */
+
+/* banner 2 starts here */
+.banner_2{
+height: 300px;
+background-color: rgb(215, 205, 205);
+}
+.banner2data img{
+    height: 300px;
+    position: relative;
+    left: 900px;
+    /* padding-top: 300px; */
+}
+.banner2data .p1{
+    position: relative;
+    top: -250px;
+    left: 400px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.banner2data .p2{
+    position: relative;
+    top: -250px;
+    left: 310px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.banner2{
+    position: relative;
+    top: -250px;
+    left: 410px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    padding: 10px;
+    border-color: 1px solid black;
+}
+
+/* banner 2 ends here */
+
+/*  most popular products starts here  */
+.popular h1{
+    padding: 40px;
+
+}
+.mostpopular{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.popularmoney {
+    position: relative;
+    top: -25px;
+}
+.mostpopular .star{
+    position: relative;
+    left: 75px;
+}
+/*  most popular products ends here  */
+
+/*  service buttons starts here  */
+.serviceicons{
+    border: 2px solid rgb(255, 88, 88);
+    height: 100px;
+    width: 200px; 
+    padding: 20px;
+    border-radius: 5px;
+}
+.serviceicons img{
+    text-align: center;
+    height: 40px;
+    position: relative;
+    left: 70px;
+
+}
+.serviceicons p{
+    font-size: 15px;
+    text-align: center;
+}
+#icons{
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    padding-bottom: 50px;
+}
+
+/*  service buttons ends here  */
+
+/*trending products starts here  */
+.tp h1{
+   text-align: center;
+   padding-bottom: 20px;
+}
+.tp1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+.tp .star{
+    position: relative;
+    left: 80px;
+}
+
+
+.tp2 .star{
+    position: relative;
+    left: 80px;
+}
+.tp .trendicons1{
+    position: relative;
+    top: -650px;
+    left: 250px;
+}
+.tp .trendicons2{
+    position: relative;
+    top: -670px;
+    left: 570px;
+}
+.tp .trendicons3{
+    position: relative;
+    top: -690px;
+    left: 880px;
+}
+.tp .trendicons4{
+    position: relative;
+    top: -710px;
+    left: 1190px;
+}
+.tp .trendicons5{
+    position: relative;
+    top: -220px;
+    left: 250px;
+}
+.tp .trendicons6{
+    position: relative;
+    top: -240px;
+    left: 560px;
+}
+.tp .trendicons7{
+    position: relative;
+    top: -260px;
+    left: 870px;
+}
+.tp .trendicons8{
+    position: relative;
+    top: -280px;
+    left: 1180px;
+}
+
+/* trending products ends here  */
+
+/* journal starts here */
+.journal{
+    padding-bottom: 10px;
+}
+.journal h1{
+    text-align: center;
+    position: relative;
+    top: -70px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+.journalimages{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.journalimages img{
+    border-radius: 5px;
+}
+.journalimages .journalp1{
+    font-size: 10px;
+    position: relative;
+    top: -20px;
+    left: -130px;
+}
+.journalimages .journalp2{
+    font-size: 15px;
+    position: relative;
+    left: -50px;
+    top: -50px;
+}
+
+.journalimages .journalp3{
+    font-size: 15px;
+    position: relative;
+    left: -130px;
+    top: -80px;
+}
+.journalimages .journalp21{
+    font-size: 10px;
+    position: relative;
+    top: -20px;
+    left: -250px;
+}
+.journalimages .journalp22{
+    font-size: 15px;
+    position: relative;
+    left: -170px;
+    top: -50px;
+}
+
+.journalimages .journalp23{
+    font-size: 15px;
+    position: relative;
+    left: -250px;
+    top: -80px;
+}
+.journalimages .journalp31{
+    font-size: 10px;
+    position: relative;
+    top: -20px;
+    left: -130px;
+}
+.journalimages .journalp32{
+    font-size: 15px;
+    position: relative;
+    left: -50px;
+    top: -50px;
+}
+
+.journalimages .journalp33{
+    font-size: 15px;
+    position: relative;
+    left: -130px;
+    top: -80px;
+}
+.journalimages .fa-cube{
+position: relative;
+top: -60px;
+left: 30px;
+}
+.journalimages p{
+    position: relative;
+    top: -113px;
+    left: -75px;
+}
+.journalimages .fa-message{
+    position: relative;
+    top: -145px;
+    left: 210px;
+}
+.journalimages .comment{
+    position: relative;
+    top: -200px;
+    left: 90px;
+}
+/* journal ends here */
+
+/* follow images starts here */
+.follow{
+    padding: 30px;
+}
+.follow h1{
+    position: relative;
+    top: -150px;
+}
+.followimages{
+    display: flex;
+    position: relative;
+    top: -130px;
+    justify-content: center;
+    gap: 50px;
+}
+.followimages img{
+    border-radius: 5px;
+}
+
+/* follow images ends here */
+
+/* footer starts here */
+.footerlist{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: black;
+    color: rgb(175, 175, 175);
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.footerlist li{
+    list-style: none;
+}
+/* footer ends here */

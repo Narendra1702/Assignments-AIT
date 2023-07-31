@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Split Bill Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Split The Bill</h1>
+  <hr>
+  <input type="text" id="amount" placeholder=" Enter the total amount"><br>
+  <span id="warning1" style="color: red;"></span><br>
+  <input type="text" id="numberOfPeople" placeholder=" Enter the number of people"><br>
+  <span id="warning2" style="color: red;"></span><br><br>
+  <button id="button" onclick="splitTheBill()">Split Amount</button><br><br>
+  <input type="text" id="result" placeholder=" Result">
+</div>
+<script src="app.js"></script>
+</body>
+</html>
